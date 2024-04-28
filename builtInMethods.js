@@ -59,3 +59,17 @@ console.log(exclamation2.includes("Sassy"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+// The .length() method is called on the flowers variable, which stores the string array listing four different flower species. 
+// The .length() method returns the number of elements in the array.
+// In this example, the return value is 4, because there are four elements in the list.
+// The console.log() statement prints the return value of the length() (4) to the console.
+var flowers = ["daisy", "tulip", "rose", "geranium"];
+console.log(flowers.length);
+
+// The reverse() method is called on the carnivalFoods variable, which stores the string object ""cotton candy", "popcorn", "deep fried oreos", "funnel cake". 
+// The reverse() method returns data in the carnivalFoods variable switching elements the first [0] and third [3] index position.
+// In this example, the return value is ['funnel cake', 'deep fried oreos', 'popcorn', 'cotton candy']
+// The console.log() statements prints the return value of the reverse() method to the console.
+var carnivalFoods = ["cotton candy", "popcorn", "deep fried oreos", "funnel cake"];
+console.log(carnivalFoods.reverse([0, 3]));
