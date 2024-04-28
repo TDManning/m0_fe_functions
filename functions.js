@@ -4,10 +4,16 @@
 // If a function takes parameters, call the function at least twice, passing different arguments each time.
 
 // 1: Write a function named greeting that returns a string with a general greeting. 
-
+function greeting () {
+    return "Fancy seeing you here!"
+}
+console.log(greeting())
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
-
+function customGreeting(name) {
+    return `Top of the mornin' to ya, ${name}!`;
+}
+console.log(customGreeting("Mod0 Instructor"));
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
