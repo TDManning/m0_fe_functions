@@ -39,6 +39,19 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+// The endsWith() method is called on the exclamation variable, which stores the string object "Neptune's Beard!". 
+// The endsWith() method returns true if the data in the exclamation variable ends with the argument passed in.
+// In this example, the return value is true, because "Neptune's Beard!" does end with "!".
+// The console.log() statements prints the return value of the endsWith() method (true) to the console.
+var exclamation = "Neptune's Beard!"
+console.log(exclamation.endsWith("!"));
+
+// The includes() method is called on the exclamation2 variable, which stores the string object "Sweet Sassy Molassy!". 
+// The includes() method returns true if the data in the exclamation2 variable includes the argument passed in.
+// In this example, the return value is true, because "Sweet Sassy Molassy!" does include "Sassy".
+// The console.log() statements prints the return value of the includes() method (true) to the console.
+var exclamation2 = "Sweet Sassy Molassy!"
+console.log(exclamation2.includes("Sassy"));
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
