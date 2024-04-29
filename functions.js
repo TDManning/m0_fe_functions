@@ -16,11 +16,18 @@ function customGreeting(name) {
 console.log(customGreeting("Mod0 Instructor"));
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
-
+function greetPerson(name) {
+    return `Hello ${name}`;
+  }
+  console.log(greetPerson("Terra Dion Manning"))
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
 
+function squared(num) {
+    return num * num;
+  }
+  console.log(squared(4)); 
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
