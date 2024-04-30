@@ -32,6 +32,27 @@ function squared(num) {
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
+//Hi! I have some ideas about how to approach this but cant get anything but errors when I'm trying out things. 
+//I'm wondering if I'm overthinking things and there is a strategy that I haven't considered. 
+//My attempt below wont produce anything but errors at this point but I'm dying to know what the answer is. 
+
+/*
+function checkStock (num, food) 
+
+{ if (num >= 4 && food === "Coffee"){
+    console.log('Coffee is stocked');
+    
+} else if {(num <= 3 && food === "Tortillas")
+      console.log('Tortillas - running LOW');
+
+} else if {(num = 0 && food === "Cheese")
+      console.log('Cheese - OUT of stock!')
+
+} else {(num <= 1 && food === "Salsa")
+      console.log('Salsa - running LOW')
+}
+*/
+
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
 
