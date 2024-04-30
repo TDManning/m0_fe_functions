@@ -11,17 +11,18 @@
 
 // EX 1:
 function askForName() { 
-  console.log("Hello, what is your name?") }
+  console.log("Hello, what is your name?");
+}
 
-askForName()
+askForName();
  
 //The code as ugly and I moved console.log down to the next line.
 
 // EX 2:
 function addThreeNums(first, second, third) {
-var sum = first + second + third
-return sum;
-      }
+  var sum = first + second + third;
+  return sum;
+}
 
 console.log(addThreeNums(1, 2, 3));
 console.log(addThreeNums(4, 2, 7));
@@ -29,12 +30,15 @@ console.log(addThreeNums(4, 2, 7));
 //console.log was missing. I added it in order to display the values. 
 
 // EX 3:
-function makeFreshPesto(){
-  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
-  console.log("Pulse basil and pine nuts");
-  console.log("Add garlic and cheeses");
-  console.log("Slowly pour in oil");
-  console.log("Season");    }
+function makeFreshPesto() {
+}
+
+console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
+console.log("Pulse basil and pine nuts");
+console.log("Add garlic and cheeses");
+console.log("Slowly pour in oil");
+console.log("Season");    
+
 
 makeFreshPesto();
 
@@ -42,13 +46,11 @@ makeFreshPesto();
 
 
 //  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
-
-return avg;
-  }
+function average(num1, num2) {
+  var sum = num1 + num2;
+  var avg = sum / 2;
+  return avg;
+}
 
 console.log(average(15, 5));
 
