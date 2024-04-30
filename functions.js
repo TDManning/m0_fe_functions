@@ -16,10 +16,10 @@ function customGreeting(name) {
 console.log(customGreeting("Mod0 Instructor"));
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
-function greetPerson(name) {
-    return `Hello ${name}`;
-  }
-  console.log(greetPerson("Terra Dion Manning"))
+function fullName(first, middle, last) {
+    return (`${first}` + " " + `${middle}` + " " + `${last}`);
+}
+console.log(fullName("Tina", "Stamatina", "Fey"))
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
